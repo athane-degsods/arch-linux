@@ -1,0 +1,29 @@
+# Font Configuration
+font_family      Hack Nerd Font
+font_size        15.0
+
+# Transparency (0.8 is a good "Hacker" level)
+# background_opacity 0.80
+
+# Window adding akes text easier to read
+window_padding_width 6
+
+# Disable annoying bell sound
+enable_audio_bell no
+
+#---  erformance weaks ixes luggishness ---
+# Disable sync rucial for s to prevent input lag
+sync_to_monitor no
+
+ # Force 11 mode ayland can be laggy in ware
+linux_display_server x11
+
+ # Reduce input latency rocess input immediately
+input_delay 0
+repaint_delay 6
+
+
+# BEGIN_KITTY_THEME
+# Japanesque
+include current-theme.conf
+# END_KITTY_THEME
